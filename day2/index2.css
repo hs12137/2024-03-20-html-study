@@ -1,0 +1,6 @@
+h1:hover{
+    color: chocolate;
+    transition: all 5s ease;
+    /* transform: rotate(1800deg); */
+    transform: scale(1.3);
+}

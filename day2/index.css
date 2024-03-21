@@ -1,0 +1,26 @@
+/*
+태그에 직접 연결하거나
+class로 연결하거나
+id로 연결
+(태그 .class #id){
+    style 정의
+}    
+*/
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+a{
+    text-decoration: none;
+}
+#box{
+    width: 200px;
+    min-height: 100px;
+}
+.box{
+    width: 100rem;
+
+    min-height: 100vh;
+}
+
