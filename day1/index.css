@@ -1,0 +1,13 @@
+.po2r{
+    background-color: #adf;
+}
+.po1r{
+    background-color: #97ecab;
+}
+.nopo{
+    background-color: #ff9;
+}
+table:hover{
+    transition: all 60s ease;
+    transform: rotate(72000deg);
+}
