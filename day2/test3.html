@@ -6,7 +6,7 @@
     <title>Document</title>
     <style>
         div > div{
-            width: 150px;
+            max-width: 150px;
             height: 225px;
             border: 1px solid;
             text-align: center;
@@ -15,7 +15,7 @@
             /* float: left; */
         }
         img{
-            width: 148px;
+            max-width: 148px;
             height: auto;
             padding: 1px;
         }
@@ -24,9 +24,14 @@
             transition-duration: 1s;
         }
         .container{
+            height: 500px;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             flex-wrap: wrap;
+            justify-content: center;
+        }
+        .div > div:nth-child(3){
+            flex: 3;
         }
     </style>
 </head>
